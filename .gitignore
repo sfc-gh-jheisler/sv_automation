@@ -1,0 +1,38 @@
+# Private or local demo assets are intentionally not part of the public repository.
+# Keep these files locally for testing; Git will ignore them.
+SyntheticDeploy/
+SemanticNet/redeploy.sql
+cortex_project/
+runs/
+.DS_Store
+__pycache__/
+*.pyc
+config.local.yaml
+.snowflake/
+.cortex/
+
+# Private testing data and generated artifacts
+SyntheticDeploy/deploy_05_corpus.sql
+SyntheticDeploy/*corpus*.sql
+SyntheticDeploy/test_data/
+SyntheticDeploy/private/
+*.csv
+*.jsonl
+*.parquet
+*.sqlite
+
+# Local credentials and environments
+.env
+*.env
+connections.toml
+config.toml
+*.pem
+*.p8
+*.key
+.venv/
+venv/
+*.log
+pipeline.log.jsonl
+.ipynb_checkpoints/
+.vscode/
+.idea/
